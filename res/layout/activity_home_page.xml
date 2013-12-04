@@ -1,0 +1,268 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+  
+<TableLayout
+       android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+        >
+    <TableRow>
+		 <Button
+	        android:background="@drawable/style_button"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="All"
+	        style="@style/button_text" />
+		 <Button
+	        android:background="@drawable/style_button"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Friends"
+	        style="@style/button_text" />
+	</TableRow>
+</TableLayout>  
+    
+<LinearLayout 
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal" >
+    <LinearLayout 
+	     android:layout_weight="2"
+	     android:layout_width="wrap_content"
+	     android:layout_height="match_parent"
+	     android:orientation="vertical" >
+           
+        <TableLayout
+  		 android:layout_width="match_parent"
+   		 android:layout_height="wrap_content" >
+	        <TableRow style="@style/WhatsHotHeaderRow">
+	            <TextView 
+	                android:id="@+id/whatsHotHeader"
+	                android:text="What's HOT"
+	                style="@style/HeaderText" />
+	        </TableRow>
+		</TableLayout>
+
+		<ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="125dp" >
+		<TableLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	            <TableRow style="@style/BodyRow">
+	                <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	            </TableRow>
+	            <TableRow style="@style/BodyRow">
+	                <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	            </TableRow>
+	            <TableRow style="@style/BodyRow">
+	                <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	            </TableRow>
+	            <TableRow style="@style/BodyRow">
+	                <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	            </TableRow>
+	            <TableRow style="@style/BodyRow">
+	                <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	            </TableRow>
+	             <TableRow style="@style/BodyRow">
+	                <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	            </TableRow>
+	            <TableRow style="@style/BodyRow">
+	                <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	            </TableRow>
+	</TableLayout>
+	</ScrollView>
+        
+	</LinearLayout>
+    
+    <LinearLayout 
+        android:layout_weight="2"
+    	android:layout_width="wrap_content"
+     	android:layout_height="match_parent"
+     	android:orientation="vertical" >
+		
+         <TableLayout
+  		 android:layout_width="match_parent"
+   		 android:layout_height="wrap_content" >
+
+        <TableRow style="@style/WhatsNotHeaderRow">
+            <TextView 
+                android:id="@+id/whatsNotHeader"
+                android:text="What's NOT"
+                style="@style/HeaderText" />
+        </TableRow>
+		</TableLayout>
+
+		<ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="125dp" >
+		<TableLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	             <TableRow style="@style/BodyRow">
+	                <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	            </TableRow>
+	            <TableRow style="@style/BodyRow">
+	                <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	            </TableRow>
+	            <TableRow style="@style/BodyRow">
+	                <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	            </TableRow>
+	            <TableRow style="@style/BodyRow">
+	                <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	            </TableRow>
+	            <TableRow style="@style/BodyRow">
+	                <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	            </TableRow>
+	             <TableRow style="@style/BodyRow">
+	                <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	            </TableRow>
+	            <TableRow style="@style/BodyRow">
+	                <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	            </TableRow>
+	</TableLayout>
+	</ScrollView>
+	</LinearLayout>
+    
+</LinearLayout>
+
+
+<TableLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+       <TableRow style="@style/HeaderRow">
+           <TextView 
+               android:layout_weight="2"
+               android:text="Genres"
+               style="@style/HeaderText" />
+       </TableRow>
+	</TableLayout>
+	<HorizontalScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+		<TableLayout
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content" >
+	            <TableRow style="@style/BodyRow">
+	                <TextView android:text="Science"
+	                    style="@style/BodyText" />
+	                 <TextView android:text="Food and Dining"
+	                    style="@style/BodyText" />
+	                  <TextView android:text="Sports"
+	                    style="@style/BodyText" />
+	                   <TextView android:text="Movies"
+	                    style="@style/BodyText" />
+	                    <TextView android:text="Politics"
+	                    style="@style/BodyText" />
+	                     <TextView android:text="Fashion and Style"
+	                    style="@style/BodyText" />
+	                    
+	            </TableRow>
+	           
+	    </TableLayout>
+	</HorizontalScrollView>
+
+
+<TableLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+       <TableRow style="@style/HeaderRow">
+           <TextView 
+               android:layout_weight="2"
+               android:text="New Releases"
+               style="@style/HeaderText" />
+       </TableRow>
+	</TableLayout>
+	<HorizontalScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+		<TableLayout
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content" >
+	            <TableRow style="@style/BodyRow">
+	                <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	                 <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	                  <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	                   <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	                    <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	                     <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	                      <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" /> 
+	                   	 <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	                     <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	                      <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	                       <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	                        <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	                         <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	                          <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	                           <TextView android:text="Cell 1,1"
+	                    style="@style/BodyText" />
+	            </TableRow>
+	           
+	    </TableLayout>
+	</HorizontalScrollView>
+	
+<TableLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+       <TableRow style="@style/HeaderRow">
+           <TextView 
+               android:layout_weight="2"
+               android:text="Have Your Sayy !"
+               style="@style/HeaderText" />
+       </TableRow>
+       <TableRow >
+	            <EditText 
+	                android:layout_weight="2"
+	                android:layout_height="110dp"
+	                android:hint="Have Your Sayy !!!"
+	                android:gravity="left"
+	                style="@style/HeaderText" />
+	        </TableRow>
+	          <TableRow android:paddingLeft="280dp" >
+	            <FrameLayout
+	                android:gravity="right"
+	                android:layout_width="wrap_content"
+        			android:layout_height="wrap_content">
+				    <Button
+				        android:background="@drawable/style_button"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="Sayy It"
+				        android:gravity="right"
+				        style="@style/button_text" />
+			    </FrameLayout>
+	        </TableRow>
+	</TableLayout>
+
+</LinearLayout>
+

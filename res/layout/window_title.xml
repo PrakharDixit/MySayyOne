@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="35dip"
+    android:gravity="center_vertical"
+    android:paddingLeft="5dip"
+    android:background="#323331">
+ 
+   <!--  <ImageView
+        android:id="@+id/header"
+        android:src="@drawable/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/> -->
+    
+  <TableLayout 
+    android:layout_width="match_parent"
+    android:layout_height="30dp">
+    <TableRow 
+        style="@style/BodyRow"
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <!-- <TextView 
+            android:layout_weight="1"
+			style="@style/BodyText"
+            android:id="@+id/TextView11"
+            android:gravity="center"
+            android:text="Menu"
+            android:textStyle="bold"
+            android:typeface="serif"/> -->
+            <Button
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="Menu"
+			    android:onClick="sendMessage" />
+            
+          <TextView
+            android:layout_weight="2"
+            style="@style/BodyText"
+            android:id="@+id/TextView12"
+            android:gravity="center"
+            android:text="Logo"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+           <TextView
+            android:layout_weight="1"
+            style="@style/BodyText"
+            android:id="@+id/TextView13"
+            android:gravity="center"
+            android:text="Search"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+    </TableRow>
+  
+</TableLayout>
+ 
+</LinearLayout>
